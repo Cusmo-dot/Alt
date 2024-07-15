@@ -1,28 +1,11 @@
 getgenv().config = {
-    hostIds = {
-        3525706364,
+    mode = 1, -- 1 is super punch / box, 2 is normal punch
+    fps = 10, -- fps of alt
+    gui = false, -- will display gui with earned cash
+    webhook = {
+        url = "", -- webhookurl
+        delay = "30m", -- every 30 minutes
     },
-    altIds = {
-        2765783472,
-        4531437291,
-        4531432866,
-        4531427967,
-        4531421404,
-        4531413603,
-        4531393441,
-        4531390391,
-        4531387931,
-        4531384658,
-        4456548451,
-        4456540431,
-        4455930562,
-        4455926027,
-        4455920558,
-
-    },
-    hostGui = false,
-    altFps = 8,
-    prefix = "/",
-    altGui = true,
+    checkPlayersNearby = false,
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3fb15b126d445566118d405d270d2894.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6a10f3cd1d88701e09b1e125b10e78b8.lua"))()
