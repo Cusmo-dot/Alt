@@ -1,8 +1,19 @@
-script_key="qUmjOlNnFTnJxsUAQTSUYtFtCsMTcTjz";
+script_key="";
 getgenv().config = {
     hostIds = {
         7019446356,
     },
+getgenv().config = {
+    redeemcodes = {
+        "RUBY",
+        "PENGUIN",
+        "DAUP",
+        "BLAZE",
+        "TRADEME!",
+        "pumpkins2023",
+        "MOTHERDAY2024",
+    },
+}
     altIds = {
        4455920558,
        4531413603,
@@ -24,4 +35,4 @@ getgenv().config = {
     altFps = 8,
     altGui = true,
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4f60ae79f955f19f6efe202b4d930f2f.lua"))()```
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4f60ae79f955f19f6efe202b4d930f2f.lua"))()
