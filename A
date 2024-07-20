@@ -1,7 +1,7 @@
 script_key="qUmjOlNnFTnJxsUAQTSUYtFtCsMTcTjz";
 getgenv().config = {
     hostIds = {
-        7019446356,
+        3525706364,
     },
     altIds = {
        4455920558,
