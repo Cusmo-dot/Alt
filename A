@@ -1,9 +1,38 @@
-getgenv()._CODES_ = {
-    "RUBY",
-    "BLAZE"
-    "DAUP"
-    "TRADEME!"
-    "PENGUIN"
-    "pumpkins2023"
+script_key="qUmjOlNnFTnJxsUAQTSUYtFtCsMTcTjz";
+getgenv().config = {
+    hostIds = {
+        7019446356,
+    },
+getgenv().config = {
+    redeemcodes = {
+        "RUBY",
+        "PENGUIN",
+        "DAUP",
+        "BLAZE",
+        "TRADEME!",
+        "pumpkins2023",
+        "MOTHERDAY2024",
+    },
 }
-loadstring(game:HttpGet('https://github.com/applless/RandomScripts/raw/main/CodeClaimer'))()
+    altIds = {
+       4455920558,
+       4531413603,
+       4531421404,
+       4531427967,
+       4531432866,
+       4531437291,
+       4455926027,
+       4455930562,
+       4456540431,
+       4531393441,
+       4456548451,
+       4531384658,
+       4531387931,
+       4531390391,
+       2765783472,
+    },
+    hostGui = false, -- host gui isn't currently working (we are planning something big)
+    altFps = 8,
+    altGui = true,
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4f60ae79f955f19f6efe202b4d930f2f.lua"))()
