@@ -1,38 +1,12 @@
-script_key="qUmjOlNnFTnJxsUAQTSUYtFtCsMTcTjz";
+script_key="lZoVFjGwcDHKZbBagDWKuexYsYEDMGqN";
 getgenv().config = {
-    hostIds = {
-        3525706364,
-    },
-getgenv().config = {
-    redeemcodes = {
-        "RUBY",
-        "PENGUIN",
-        "DAUP",
-        "BLAZE",
-        "TRADEME!",
-        "pumpkins2023",
-        "MOTHERDAY2024",
+    mode = 1, -- 1 is super punch / box, 2 is normal punch
+    fps = 10,
+    checkPlayersNearby = true,
+    gui = true, -- will display gui with earned cash
+    webhook = {
+        url = "https://discord.com/api/webhooks/1262252105465593937/b6AEsNjt2r5hWtO-C-1u2JD-CS-2hw5Tol2CQQhJMtjV6Px95zVuRb9Bq3Rh-hPgWSw9", -- webhookurl
+        delay = "30m", -- every 30 minutes
     },
 }
-    altIds = {
-       4455920558,
-       4531413603,
-       4531421404,
-       4531427967,
-       4531432866,
-       4531437291,
-       4455926027,
-       4455930562,
-       4456540431,
-       4531393441,
-       4456548451,
-       4531384658,
-       4531387931,
-       4531390391,
-       2765783472,
-    },
-    hostGui = false, -- host gui isn't currently working (we are planning something big)
-    altFps = 8,
-    altGui = true,
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4f60ae79f955f19f6efe202b4d930f2f.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bcb77d30c12bec835df51138c5700331.lua"))()
