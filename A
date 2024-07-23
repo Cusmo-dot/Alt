@@ -9,4 +9,4 @@ getgenv().config = {
         delay = "30m", -- every 30 minutes
     },
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bcb77d30c12bec835df51138c5700331.lua"))()```
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bcb77d30c12bec835df51138c5700331.lua"))()
