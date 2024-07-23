@@ -1,4 +1,4 @@
-script_key="lZoVFjGwcDHKZbBagDWKuexYsYEDMGqN";
+script_key="lZoVFjGwcDHKZbBagDWKuexYsYEDMGqN"
 getgenv().config = {
     mode = 1, -- 1 is super punch / box, 2 is normal punch
     fps = 10,
