@@ -1,11 +1,12 @@
+script_key="lZoVFjGwcDHKZbBagDWKuexYsYEDMGqN";
 getgenv().config = {
     mode = 1, -- 1 is super punch / box, 2 is normal punch
-    fps = 10, -- fps of alt
+    fps = 15,
+    checkPlayersNearby = true,
     gui = true, -- will display gui with earned cash
     webhook = {
         url = "https://discord.com/api/webhooks/1262252105465593937/b6AEsNjt2r5hWtO-C-1u2JD-CS-2hw5Tol2CQQhJMtjV6Px95zVuRb9Bq3Rh-hPgWSw9", -- webhookurl
         delay = "30m", -- every 30 minutes
     },
-    checkPlayersNearby = true,
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6a10f3cd1d88701e09b1e125b10e78b8.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bcb77d30c12bec835df51138c5700331.lua"))()
